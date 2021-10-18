@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>CONTROL REMOTO</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script src="https://kit.fontawesome.com/d18b2568db.js"></script>
+	
+</head>
+<body>
+	<header>
+			<h1>UNIVERSIDAD ICEL, UI</h1>
+			<h2>NEGOCIOS ELECTRONICOS</h2>
+			<h4>PROF. MARTINEZ MORALES JOSE</h4>
+			<h4>ALUMNO: HERNANDEZ MUÑOZ LUIS JORGE</h4>
+			<h4>TIENDA ELECTRONICA</h4>
+	</header>
+
+	<div id="formulario">
+		<form id="formulario_2">
+			<label>
+				NOMBRE
+			<input id="name" type="text" name="nombre" placeholder="Nombre..." required="" >
+			</label>
+
+			<label>
+				N° DE TARJETA
+			<input id="card" type="number" name="numero" placeholder="Numero de tarjeta..." required="">
+			</label>
+
+			<label>
+				CVV
+			<input id="cvv" type="number" name="cvc" placeholder="Inserta tu cvv..." required="">
+			</label>
+
+			<label>
+				FECHA DE EXPIRACIÓN
+			<input id="date1" type="date" name="fecha" placeholder="fecha de expiración..." required="">
+			</label>
+			<br>
+			<label>
+				EMAIL
+			<input id="email" type="email" name="correo" placeholder="Correo..." pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required="" title="escriba su correo correctamente">
+			</label>
+
+			<input id="compras" type="submit" name="compra" value="Confirmar compra">
+		</form>
+			
+	</div>
+
+	<footer>
+		Creado por: Luis Hernández &copy;
+	</footer>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

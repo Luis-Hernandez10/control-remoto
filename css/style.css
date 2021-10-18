@@ -1,0 +1,215 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#clearfix{
+	float:none;
+	clear: both;
+}
+
+header{
+	margin: 0px;
+	background: #333;
+	color: #f2f2f2;
+	font-family: Helvetica, Arial;
+	letter-spacing: 2px;
+	text-align:center;
+	padding: 8px;
+}
+
+.tableta img{
+	width: 150px;
+	height:150px;
+	margin-top: 80px;
+	margin-left: 15px;
+}
+
+.tableta p{
+	width: 500px;
+	height: 300px;
+	float:right;
+	margin-right: 40%;
+	font-family: Helvetica, Arial;
+	letter-spacing:2px;
+	font-size: 16px;
+	margin-top: 60px;
+	margin-bottom:10px;
+}
+
+.tableta2 img{
+	width: 150px;
+	height:150px;
+	margin-top: 80px;
+	margin-left: 15px;
+	cursor:pointer;
+}
+
+.tableta2 p{
+	width: 600px;
+	height: 300px;
+	float:right;
+	margin-right: 30%;
+	font-family: Helvetica, Arial;
+	letter-spacing:2px;
+	font-size: 12px;
+	margin-top: 60px;
+	margin-bottom:10px;
+}
+
+.tableta3 img{
+	width: 150px;
+	height:150px;
+	margin-top: 80px;
+	margin-left: 15px;
+	cursor:pointer;
+}
+
+.tableta3 p{
+	width: 600px;
+	height: 300px;
+	float:right;
+	margin-right: 30%;
+	font-family: Helvetica, Arial;
+	letter-spacing:2px;
+	font-size: 15px;
+	margin-top: 60px;
+	margin-bottom:10px;
+}
+
+.compra{
+	background: #ffcc00;
+	margin-left: 0px;
+	margin-top: 10px;
+	padding: 5px;
+	border: none;
+	cursor:pointer;
+	text-decoration: none;
+}
+
+footer{
+	margin:0px;
+	background: #333;
+	color: #f2f2f2;
+	letter-spacing: 2px;
+	font-family: Helvetica, Arial;
+	text-align: center;
+	margin-top: 20px;
+	padding: 8px
+
+}
+
+.fa-dollar-sign{
+	font-size:25px;
+	color:#aacc22;
+	margin-left: 16px;
+}
+.fa-shopping-cart{
+font-size:25px;
+color:#aacc22;
+margin-left: 8px;
+}
+
+#control{
+	margin:0px;
+	font-family: Helvetica, Arial;
+	font-size:15px;
+	letter-spacing: 2px;
+	background: #f2f2f2;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#control a{
+	margin-top: 5%;
+	display: block;
+}
+
+#CA{
+	margin: 0px;
+	font-size: 15px;
+	font-family: Helvetica, Arial;
+	letter-spacing: 2px;
+	margin-top: 5px;
+	padding: 5px;
+	text-align:center;
+}
+
+#relojstyle{
+	margin-top:50px;
+	margin-bottom: 50px;
+	width:100%;
+	height:250px;
+	background: #f2f2f2;
+
+}
+
+#demo{
+	margin-top: 25px;
+	margin: 25px auto;
+	font-size: 50px;
+	text-align: center;
+	background: #f2f2f2;
+	color: #333;
+
+}
+
+#demo2{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-top: 25px;
+	font-size: 50px;
+	text-align: center;
+	background: #f2f2f2;
+	color: #333;
+
+}
+
+#formulario{
+	margin-top: 25px;
+	width: 50%;
+	height: 370px;
+	background: #f3f3f3;
+	margin-left: 350px;
+	padding: 15px;
+}
+
+#formulario_2{
+	background: #f3f3f3;
+	padding: 15px;
+	width: 80%;
+	height: 350px;
+	margin:0px auto;
+	font-size: 20px;
+	font-family: Helvetica, Arial;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"],
+select{
+	padding: 5px;
+	border-radius: 2px;
+	border: 1px solid #ccc;
+	width: 80%;
+	margin-bottom: 10px;
+	margin-top: 5px;
+	display: block;
+	font-size: 15px;
+	font-family: Helvetica, Arial;
+}
+
+form input[type="submit"]{
+	background: #eee;
+	padding: 10px;
+	border: 1px solid #ccc;
+	color: #333;
+	cursor: pointer;
+	display: block;
+	margin-top: 25px;
+	font-family: Helvetica, Arial;
+}
+
+
+
